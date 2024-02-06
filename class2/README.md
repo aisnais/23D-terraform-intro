@@ -19,10 +19,11 @@ Data types in terraform:
 mylist_of_maps = [
     env1 = {
         env = "production"
-        name = "marat"
+        name = "prod-env"
     },
     env2 = {
-
+        env = "dev"
+        name = "dev-env"
     }
 ]
 

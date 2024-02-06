@@ -13,6 +13,7 @@ resource "aws_instance" "myec2" {
   }
 }
 
+# we want to print ec2 instance's public ip on terminal output
 output "ec2_public_ip" {
     description = "Public IP of ec2 instance"
     value = aws_instance.myec2.public_ip
